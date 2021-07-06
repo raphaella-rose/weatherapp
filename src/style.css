@@ -98,3 +98,15 @@
 ::placeholder {
   color: #eeeeee;
 }
+#github {
+margin-left: 170px;
+margin-top: 15px;
+font-size: 15px;
+color: grey;
+text-decoration: none;
+}
+.name {
+margin-left: 170px;
+font-size: 13px;
+color:#797EF6 ;
+}
