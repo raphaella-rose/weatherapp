@@ -98,15 +98,16 @@
 ::placeholder {
   color: #eeeeee;
 }
-#github {
-margin-left: 170px;
-margin-top: 15px;
+.signature {
+text-align: center;
+margin-top: 100px;
 font-size: 15px;
+}
+#github {
 color: grey;
 text-decoration: none;
 }
 .name {
-margin-left: 170px;
-font-size: 13px;
 color:#797EF6 ;
+text-decoration: none;
 }
