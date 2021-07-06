@@ -1,0 +1,100 @@
+.whole {
+  display: block;
+  margin: 75px auto 0;
+  padding-bottom: 40px;
+  background-color: #303841;
+  border: 2px solid #303841;
+}
+.search {
+  margin-top: 20px;
+  width: 120px;
+  font-size: 14px;
+  color: #eeeeee;
+}
+.go {
+  font-size: 16px;
+  border: 1px solid #303841;
+  background-color: #303841;
+  color: #00adb5;
+}
+.location {
+  padding-top: 15px;
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+  color: #00adb5;
+}
+.emoji {
+  margin-top: 8px;
+  font-size: 55px;
+  text-align: center;
+}
+.temp {
+  margin-top: 25px;
+}
+.current-temp {
+  margin-top: 3px;
+  text-align: center;
+  font-size: 25px;
+  color: #00adb5;
+}
+.circle {
+  margin-top: 25px;
+  position: absolute;
+  top: 98px;
+  right: 59px;
+  font-size: 75px;
+  color: #00adb5;
+}
+.unit {
+  color: #00adb5;
+  position: absolute;
+  top: 145px;
+  right: 20px;
+  border: 1px solid #303841;
+  border-radius: 25%;
+  background-color: #303841;
+  transition: all 150ms ease-in-out;
+}
+
+.unit:hover {
+  background-color: #00adb5;
+  color: white;
+}
+.high-low {
+  margin-top: 20px;
+  text-align: center;
+  color: #00adb5;
+}
+.date {
+  font-size: 15px;
+  text-align: center;
+  color: #00adb5;
+}
+.humidity-wind {
+  text-align: center;
+  font-size: 15px;
+  margin-top: 20px;
+  color: #00adb5;
+}
+.days {
+  padding: 25px 0 0 13px;
+  font-size: 20px;
+  color: #eeeeee;
+}
+.image {
+  width: 200px;
+  position: relative;
+  bottom: 185px;
+  left: 20px;
+}
+.text {
+  font-family: "Poppins", sans-serif;
+}
+.search-bar {
+  background-color: #3a4750;
+  border: 1px solid #3a4750;
+}
+::placeholder {
+  color: #eeeeee;
+}

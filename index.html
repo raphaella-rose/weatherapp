@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<link rel="stylesheet" href="src/style.css" />
+<script src="https://kit.fontawesome.com/5c648390e5.js" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap"
+    rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <div class="card whole" style="width: 24rem;">
+        <div class="card-body layout">
+            <div class="search">
+        </div>
+            <div class="row">
+                <div class="col-sm">
+                    <form id="search">
+                        <input class="search text search-bar" type="text" placeholder="Search..." id="location-input" autocomplete="off">
+                        <input class="go text" type="submit" value="Go">
+                    </form>
+                </div>
+                <div class="col-sm location text">
+                    <div id="display-city">
+                    Now
+                    <br>
+                    </div>
+                    <div class="date">
+                      date  
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm emoji text">
+                    ☀️
+                </div>
+                <div class="col-sm temp">
+                    <p class="current-temp text" id="temp">
+                    22
+                    </p>
+                    <i class="far fa-circle circle text"></i>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm high-low text">
+                    High
+                    <strong id="max-temp">
+                        25°
+                    </strong>
+                    Low
+                    <strong id="min-temp">
+                        17°
+                    </strong>
+                    </div>
+                <div class="col-sm humidity-wind text">
+                <span id="humidity">
+                   0 
+                </span>
+                <div id="wind">
+                    0
+                </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm tomorrow text days">
+                    <strong>
+                        25°
+                    </strong>
+                    Tomorrow
+                </div>
+            </div>
+                      <div class="row">
+                <div class="col-sm day-two text days">
+                  <strong>
+                    24° 
+                    </strong>
+                    Thursday
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm day-three text days">
+                   <strong>
+                    24° 
+                    </strong>
+                    Friday
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm day-four text days">
+                  <strong>
+                    25° 
+                    </strong>
+                    Saturday
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm day-five text days">
+                    <strong>
+                    26° 
+                    </strong>
+                    Sunday
+                </div>
+            </div>
+        <div style="float: right;">
+            <img class="image" src="media/sun.svg" alt="sun" />
+        </div>
+        <button class="unit" id="unit-converter">
+    °C
+        </button>
+        </div>
+    </div>
+    
+<script   src="src/index.js"></script>
+</body>
+</html>
